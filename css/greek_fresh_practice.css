@@ -1,0 +1,46 @@
+story {
+	padding: 130px 0 102px 0;
+	background: url('img/story-gradient.gif') repeat-x left bottom #f2f2f2;
+}
+
+.error404 .story {
+	padding: 200px 0;
+}
+
+.story h2 {
+	position: relative;
+	z-index: 1;
+}
+
+.error404 .story h2 {
+	text-transform: none;
+}
+
+#boxes {
+	padding: 28px 0 18px 0;
+}
+
+#boxes .span4 .transitioner {
+	width: 316px;
+	position: relative;
+	top: 0;
+	left: 50%;
+	margin-left: -158px;
+	height: 632px;
+	-webkit-transition: top .5s ease-in-out 0s;
+	-moz-transition: top .5s ease-in-out 0s;
+	-o-transition: top .5s ease-in-out 0s;
+}
+
+#boxes .span4:hover .transitioner h3{
+	width: 250px;
+	height: 146px;
+	position: relative;
+	left: 50%;
+	margin-left: -125px;
+	margin-top: 33px;
+	color: #fff;
+	padding-top: 104px;
+	margin-bottom: 66px;
+	background: url('img/2-circle.png');
+}
